@@ -1,0 +1,78 @@
+.accountpage {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+
+.accountpage .accountdetails {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accountdetails .user {
+  border: 1px solid black;
+  height: 350px;
+  width: 300px;
+  border-radius: 5px;
+  align-self: center;
+}
+.accountpage .accountdetails .acc {
+  padding-left: 4vw;
+  width: 250px;
+  height: 200px;
+}
+
+.accountpage .accountdetails .details {
+  padding-left: 3vw;
+}
+
+.accountpage .borderline {
+  margin: 3vw;
+  height: 70vh;
+  width: 3px;
+  background-color: #000;
+}
+
+.accountpage .transactionForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 250px;
+  /* background-color: #000; */
+  /* color: #fff; */
+  height: max-content;
+  /* padding: 2vw; */
+  align-self: center;
+}
+
+.accountpage .transactionForm div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.accountpage .transactionForm div input {
+  border: 0;
+  font-size: 2vw;
+  height: 2vw;
+  padding: 1vw;
+  border-bottom: 0.2vw solid #000;
+}
+
+.accountpage .transactionForm .button {
+  background-color: #000;
+  padding: 0.5vw;
+  margin: 0 auto;
+  border-radius: 0.5vw;
+  width: max-content;
+  color: #fff;
+  transition: 1s;
+}
+.accountpage .transactionForm .button:hover {
+  background-color: #f33;
+  width: 50%;
+  text-align: center;
+  color: #000;
+  transition: 1s;
+}

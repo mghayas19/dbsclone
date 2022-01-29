@@ -1,0 +1,15 @@
+.about .para {
+  width: 70%;
+  display: flex;
+  gap: 2vw;
+  margin: 4vw auto;
+}
+.about .para img {
+  /* width: 50%; */
+  height: 100%;
+}
+
+.about .para p{
+  text-align: justify;
+  text-justify: inter-word;
+}

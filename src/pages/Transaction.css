@@ -1,0 +1,60 @@
+.active {
+  color: red !important;
+  text-decoration: underline !important;
+}
+
+.transaction .data {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction .data .search {
+  width: 50%;
+  align-self: center;
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+}
+.transaction .data .search input {
+  width: 100%;
+  align-self: center;
+  margin: 0 auto;
+  height: 100%;
+  padding: 1vw;
+}
+
+.transaction .data .search .icon {
+  position: absolute;
+  height: inherit;
+  font-size: 2vw;
+  right: 2.555555555%;
+}
+
+.transaction .data table {
+  width: 100%;
+  margin: 3vw auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.transaction .data table tr th:first-child {
+  padding: 0.3vw;
+  border-radius: 0.5vw 0 0 0;
+}
+
+.transaction .data table tr th:last-child {
+  padding: 0.3vw;
+  border-radius: 0 0.5vw 0 0;
+}
+
+.transaction .data table tr:nth-child(even) {
+  background-color: rgb(218, 218, 218);
+  color: #000;
+}
+
+.transaction .data table .headRow {
+  background-color: #f33;
+  color: #fff;
+}
